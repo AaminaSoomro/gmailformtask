@@ -1,0 +1,281 @@
+body *{
+    font-family:'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+}
+.errspn{
+    margin-top: 43px;
+}
+.email i{
+    color: red;
+    margin-right: 7px;
+}
+.note{
+    color: red;
+}
+.note{
+    display: none;
+}
+.email i{
+    display: none;
+}
+.fxemail{
+    border: red;
+}
+.google-sign-in{
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: -4px;
+}
+body{
+    margin: 0px;
+}
+.heading{
+    text-align: center;
+    font-size: 12px;
+    color: #202124;
+    margin: 10px;
+}
+.heading span{
+    font-size: 24px;
+}
+#g, #gg{
+    color: #4285f4;
+}
+#o, #e{
+    color: red;
+}
+#oo{
+    color: #FBBC05;
+}
+#l{
+    color: green;
+}
+.dicision{
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    height: 430px;
+    border: 1px solid #DADCE0;
+    width: 36%;
+    border-radius: 15px;
+    margin: auto;
+    padding: 50px;
+    margin-top: 85px;
+}
+.fxemail{
+    width: 35%;
+    height: 53px;
+    border: 1px solid #DADCE0;
+    border-radius: 4px;
+    padding: 0px 7px;
+    font-size: 15px;
+ 
+}
+@media screen and (max-width:480px){
+    .fxemail{
+        width: 70%;
+    }
+}
+.inpsec .fxemail{
+    position: absolute;
+}
+.inpsec .lablenam{
+    
+    color: #6e6e6e;
+    position: relative;
+    top: 18px;
+    left: 12px;
+    background: #ffffff;
+    transition: 0.15s;
+    font-size: 14px;
+    opacity: 0;
+}
+.fxemail:focus {
+    border-color: royalblue;
+    outline: royalblue;
+}
+.inpsec .fxemail:focus + .lablenam{
+    top: -8px;
+    left: 8px;
+    padding: 0 4px;
+    font-size: 12px;
+    color: #1A73E8;
+    border-color: 1px solid royalblue;
+    opacity: 1;
+
+}
+.inform{
+    color:#27272A;
+    text-align: center;
+}
+.suggestion{
+    margin: 10px 0px;
+}
+.suggestion a{
+    text-decoration: none;
+}
+.suggestion span{
+    color: #1A73E8;
+    /* font-weight: bolder; */
+}
+.sentence{
+    color: #676B70;
+    margin-top: 40px;
+
+}
+.sentence a{
+    text-decoration: none;
+}
+.sentence span{
+    color: #1A73E8;
+    /* font-weight: bolder; */
+}
+.sentence p{  
+    margin-bottom: 4px;
+    margin-bottom: 25px;
+}
+.dicision a{
+    color: #1A73E8;
+    /* font-weight: bolder; */
+    margin: 46px 0px;
+    text-decoration: none;
+}
+.dicision input{
+    background-color: #1A73E8;
+    color: white;
+    border: none;
+    padding: 9px 25px;
+    border-radius: 3px;
+}
+/* input:active{
+    border: none;
+} */
+input:hover{
+    cursor: pointer;
+}
+.lastline{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 1px;
+    width: 80%;
+    margin: auto;
+
+}
+.eng span, .abt span{
+    font-size: 12px;
+    color: #393A3C;
+}
+.eng i{
+    font-size: 12px;
+    color: #393A3C;
+}
+.abt span{
+    padding: 5px;
+}
+.hint{
+   text-align: center;
+    color: #fff;
+    width: 100%;
+}
+.hint strong{
+    background: #DADCE0;
+
+}
+/* @media screen and (min-width:481px){
+    #emailname{
+        margin: 20px 17px!important;
+        width: 82%!important;
+        margin-bottom: 50px!important;
+    }
+} */
+@media screen and (max-width:480px){
+    form{
+        margin: 10px;
+        width: unset;
+        padding: 30px;
+        
+    }
+    .lastline{
+        margin: 0px;
+        width: 97%;
+    }
+}    
+  #emailname{
+        border: 1px solid #DADCE0;
+        border-radius: 20px;
+        padding: 6px;
+        color: #3C4043;
+        margin: 20px 18px;
+        text-align: center;
+        width: 85%;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center
+        
+
+ }
+ img{
+        width: 10%!important;
+ }
+
+
+.home-recovery{
+    display: flex;
+}
+.home{
+    text-align: center;
+    border: 1px solid #DADCE0;
+    height: 130px;
+    padding: 0px 10px;
+    width: 80%;
+    border-radius: 11px;
+    margin-right: 10px;
+    padding-top: 12px;
+    box-shadow: 1px 9px 20px -13px rgba(0,0,0,0.75);
+
+}
+.home img{
+    width: 13%;
+}
+
+.recovery{
+    text-align: center;
+    border: 1px solid #DADCE0;
+    height: 130px;
+    width: 80%;
+    padding: 0px 10px;
+    border-radius: 11px;
+    margin-left: 10px;
+    padding-top: 12px;
+    box-shadow: 1px 9px 20px -13px rgba(0,0,0,0.75);
+}
+.recovery img{
+    width: 13%;
+}
+.home, .recovery p{
+    color: #47484A;
+    font-size: 15px;
+}
+.lastpara{
+    color: #676B70;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.lastpara p{
+    margin-bottom: 4px;
+}
+.seclstspn a{
+    text-decoration: none;
+    color: #1A73E8;
+    font-size: 15px;
+}
+.lstspn a{
+    text-decoration: none;
+    color: #1A73E8;
+    font-size: 15px;
+    margin-top: 42px;
+
+}
+.lstspn{
+    margin-top: 32px;
+}
